@@ -15,7 +15,7 @@ function esMultiplo(n1, n2: number): boolean {
   return esMultiplo;
 }
 console.log(esMultiplo(n1, n2));
-if ((esMultiplo = true)) {
+if (esMultiplo(n1, n2) === true) {
   console.log("es multipo " + n1);
 } else {
   console.log("no es multiplo: " + n2);
